@@ -1,0 +1,135 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-documenteditor/styles/material.css";
+@import '../node_modules/@syncfusion/ej2-icons/styles/material.css';
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.auth-container {
+  width: 400px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.auth-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Primary button */
+.auth-button.primary {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+}
+
+.auth-button.primary:hover, .logout-btn:hover {
+  background-color: #213292;
+}
+
+/* Secondary button */
+.auth-button.secondary {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.auth-button.secondary:hover {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+.auth-message {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.main-titlebar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+}
+
+.welcome-text {
+  padding: 4px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logout-btn {
+  height: 26px;
+  width: 65px;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top: 6px;
+  background: #3f51b5;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#documenteditor_title_name {
+position: absolute;
+    top: 57px;
+    left: 20px;
+}
+
+#documenteditor_titlebar {
+  height: 36px;
+  line-height: 26px;
+  width: 100%;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#documenteditor-share:hover, #de-print:hover{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}

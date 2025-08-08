@@ -1,0 +1,22 @@
+[
+  {
+    "Username": "Legal Team",
+    "Email": "legalteam@gmail.com",
+    "Password": "$2a$11$drjZ5SRB42KeRDMvehzRxOLrPh0eaTuLaevoeW5//JJ1By5Ic3DO6"
+  },
+  {
+    "Username": "HR",
+    "Email": "hr@gmail.com",
+    "Password": "$2a$11$fYFWWuYeMQor0m4ExdJNJOeRyjMmJQtGkvnM6w/13c810vaNsfdoy"
+  },
+  {
+    "Username": "Finance Team",
+    "Email": "financeteam@gmail.com",
+    "Password": "$2a$11$hNOE0y5qWTquU.5yi2xO2.dew.SSMmW7jLjIdiixA5uBsPSBXd95C"
+  },
+  {
+    "Username": "Project Leader",
+    "Email": "projectleader@gmail.com",
+    "Password": "$2a$11$QL7CJCq8PqpAsX/GFDsJGOnLQcyXCoNsXcOtjJ3r9ClvXs835ACaK"
+  }
+]
