@@ -1,2 +1,2 @@
 # Role-Based Access and Restrict Editing in React Word Editor for Secure Document Workflows
-This repository provides a working example of implementing role-based access control and editing restrictions in Word documents using the Syncfusion React Word Document Editor (also known as the Word Processor).
+This repository demonstrates how to implement role-based access control and editing restrictions in a Word document using the Syncfusion React Word Document Editor (also known as the Word Processor). It showcases a secure document workflow where different users can edit only the sections relevant to their roles—ideal for collaborative environments such as vendor agreements, contracts, or internal documentation.
